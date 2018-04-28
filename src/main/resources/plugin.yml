@@ -1,0 +1,12 @@
+name: MinecraftVoice
+version: ${project.version}
+main: github.scarsz.minecraftvoice.MinecraftVoice
+authors: [Scarsz]
+description: Automatically manage Discord voice channels to provide proximity voice chat for Minecraft
+website: https://github.com/Scarsz/MinecraftVoice
+depend: [DiscordSRV]
+
+commands:
+  voice:
+    description: Minecraft Voice commands
+    usage: /voice
